@@ -12,4 +12,4 @@ bot.on('message', (payload, chat) => {
   chat.say(`Echo: ${text}`);
 });
 
-bot.start(4400);
+bot.start();
